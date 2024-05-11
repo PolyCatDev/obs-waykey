@@ -26,7 +26,7 @@ pipx install obs-waykey
 2. Go to where you configure keybinds
 3. Add a new custom keybind
 4. Name it what u want
-5. Use the command "obs-waykey <toggle>"
+5. Use the command `obs-waykey <toggle>`
 6. Set ur keybind
 
 ### Here's how mine looks
