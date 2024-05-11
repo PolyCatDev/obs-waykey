@@ -22,7 +22,9 @@ pipx install obs-waykey
 
 ## Setup
 
-ATTENTION: WebScoket authentication must be disabled for this script to work. You can find it under `Tools > WebScoket Server Settings > Enable Authentication`.
+ATTENTION: WebScoket authentication must be disabled for this script to work.
+
+You can find it under `Tools > WebScoket Server Settings > Enable Authentication`.
 
 1. Go to your Desktop settings (or WM config file)
 2. Go to where you configure keybinds
