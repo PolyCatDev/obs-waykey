@@ -1,6 +1,5 @@
-import obsws_python as obs
-import sys
+from .toggles import record
+from .toggles import record_pause
 
-keybind = sys.argv[1]
-client = obs.ReqClient()
+
 

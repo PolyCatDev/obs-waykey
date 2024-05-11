@@ -1,5 +1,8 @@
-from . import keybind
-from . import client
+import obsws_python as obs
+import sys
+
+keybind = sys.argv[1]
+client = obs.ReqClient()
 
 def record(name: str):
     if keybind == name:

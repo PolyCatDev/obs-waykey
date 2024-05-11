@@ -1,5 +1,5 @@
-from obs_waykey import toggles
+import obs_waykey as obs
 
 # Modify action names here
-toggles.record("toggle-rec")
-toggles.record_pause("toggle-rec-pause")
+obs.record("toggle-rec")
+obs.record_pause("toggle-rec-pause")
