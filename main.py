@@ -1,11 +1,4 @@
-import obsws_python as obs
-import sys
+from obs_waykey import toggles
 
-keybind = sys.argv[1]
-
-client = obs.ReqClient()
-
-if keybind == "toggle-rec":
-    client.toggle_record()
-elif keybind == "toggle-rec-pause":
-    client.toggle_record_pause()
+toggles.record("toggle-rec")
+toggles.record_pause("toggle-pause")
