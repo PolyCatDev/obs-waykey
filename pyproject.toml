@@ -1,0 +1,13 @@
+[project]
+name = "obs-waykey"
+version = "0.1"
+description = "A controller for OBS toggles via websocket"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "PolyCat", email = "polycat@tuta.io" },
+]
+dependencies = [
+    "obsws-python",
+    "websocket-client",
+]
