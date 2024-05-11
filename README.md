@@ -26,12 +26,17 @@ pipx install obs-waykey
 2. Go to where you configure keybinds
 3. Add a new custom keybind
 4. Name it what u want
-5. Use the command "obs-waykey -action-"
+5. Use the command "obs-waykey _toggle_"
 6. Set ur keybind
 
 ### Here's how mine looks
 
 ![my keybind](https://github.com/PolyCatDev/obs-waykey/blob/main/.github/toggle-rec-config.png)
+
+## Toggles
+
+1. `toggle-rec`
+2. `toggle-rec-pause`
 
 # Build from source
 
@@ -65,6 +70,7 @@ poetry build
 
 # To do
 
+-   [ ] Add more toggles
 -   [ ] Password Support
 -   [ ] Alternative IP support
 -   [ ] Alternative port support
