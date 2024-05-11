@@ -1,0 +1,2 @@
+obsws-python==1.7.0
+websocket-client==1.8.0
