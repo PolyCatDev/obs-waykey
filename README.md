@@ -12,3 +12,9 @@ Python script for setting up OBS global keybinds under wayland
 ## How to install
 
 WIP
+
+## To do
+
+-   [ ] Password Support
+-   [ ] Alternative IP support
+-   [ ] Alternative port support
