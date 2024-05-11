@@ -2,3 +2,6 @@
 __pycache__
 config.toml
 setup.py
+build
+dist
+obs_waykey.egg-info
