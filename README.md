@@ -45,7 +45,8 @@ ATTENTION: This project was built with [poetry](https://python-poetry.org/) in m
 1. Clone the repo
 
 ```
-git clone https://github.com/PolyCatDev/obs-waykey.git
+git clone https://github.com/PolyCatDev/obs-waykey.git && \
+cd obs-waykey
 ```
 
 2. Setup enviroment
