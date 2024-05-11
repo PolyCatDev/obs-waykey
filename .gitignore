@@ -5,3 +5,4 @@ setup.py
 build
 dist
 obs_waykey.egg-info
+poetry.lock
