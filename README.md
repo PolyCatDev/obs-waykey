@@ -20,6 +20,12 @@ I recommend installing via [pipx](https://github.com/pypa/pipx)
 pipx install obs-waykey
 ```
 
+If you want a specific version you can grab the `.vhl` from the [releases page](https://github.com/PolyCatDev/obs-waykey/releases) and install it with pipx
+
+```
+pipx install <file-name>
+```
+
 ## Setup
 
 ATTENTION: WebScoket authentication must be disabled for this script to work.
