@@ -9,8 +9,6 @@ readme = "README.md"
 python = "^3.9"
 obsws-python = "^1.7.0"
 
-
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
