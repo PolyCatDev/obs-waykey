@@ -14,7 +14,6 @@ Python script for setting up OBS global keybinds under wayland
 ## Install
 
 I recommend installing via [pipx](https://github.com/pypa/pipx)
-**ATTENTION:** This package is currently not up on pypi so this command won't work
 
 ```
 pipx install obs-waykey
