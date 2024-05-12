@@ -27,16 +27,16 @@ pipx install <file-name>
 
 ## Setup
 
-ATTENTION: WebScoket authentication must be disabled for this script to work.
+ATTENTION: WebSocket authentication must be disabled for this script to work.
 
-You can find it under `Tools > WebScoket Server Settings > Enable Authentication`.
+You can find it under `Tools > WebSocket Server Settings > Enable Authentication`.
 
 1. Go to your Desktop settings (or WM config file)
 2. Go to where you configure keybinds
 3. Add a new custom keybind
-4. Name it what u want
+4. Name it what you want
 5. Use the command `obs-waykey <toggle>`
-6. Set ur keybind
+6. Set your keybind
 
 ### Here's how mine looks
 
