@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "obs-waykey"
-version = "0.1.0"
+version = "0.1.1"
 description = "OBS global shortcuts workaround for wayland using websocket"
 authors = ["PolyCat <polycat@tuta.io>"]
 readme = "README.md"
