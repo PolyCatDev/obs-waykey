@@ -3,6 +3,7 @@
         "ms-python.mypy-type-checker",
         "ms-python.python",
         "njqdev.vscode-python-typehint",
-        "bungcip.better-toml"
+        "bungcip.better-toml",
+        "gruntfuggly.todo-tree"
     ]
 }
