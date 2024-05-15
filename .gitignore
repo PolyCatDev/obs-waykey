@@ -6,3 +6,4 @@ build
 dist
 obs_waykey.egg-info
 poetry.lock
+.mypy_cache

@@ -4,10 +4,10 @@ Python script for setting up OBS global keybinds under wayland
 
 ## Requirements
 
--   [OBS Studio](https://obsproject.com/)
--   [OBS Websocket v5 Plugin](https://github.com/obsproject/obs-websocket/releases/tag/5.0.0)
-    -   ATTENTION: For OBS version 28 and above Websocket plugin is included by default. If you run an older version it must be installed manually.
--   Python 3.9 or greater
+- [OBS Studio](https://obsproject.com/)
+- [OBS Websocket v5 Plugin](https://github.com/obsproject/obs-websocket/releases/tag/5.0.0)
+  - ATTENTION: For OBS version 28 and above Websocket plugin is included by default. If you run an older version it must be installed manually.
+- Python 3.9 or greater
 
 # Install and Setup
 
@@ -27,25 +27,21 @@ pipx install <file-name>
 
 ## Setup
 
-ATTENTION: WebSocket authentication must be disabled for this script to work.
-
-You can find it under `Tools > WebSocket Server Settings > Enable Authentication`.
-
 1. Go to your Desktop settings (or WM config file)
 2. Go to where you configure keybinds
 3. Add a new custom keybind
 4. Name it what you want
-5. Use the command `obs-waykey <toggle>`
+5. Use the command `obs-waykey -t <toggle> -w <your-password>`
 6. Set your keybind
 
-### Here's how mine looks
+### Here's an example
 
 ![my keybind](https://github.com/PolyCatDev/obs-waykey/blob/main/.github/toggle-rec-config.png)
 
 ## Toggles
 
-1. `toggle-rec`
-2. `toggle-rec-pause`
+1. `toggle-record`
+2. `toggle-record-pause`
 
 # Build from source
 
@@ -80,7 +76,7 @@ poetry build
 
 # To do
 
--   [ ] Add more toggles
--   [ ] Password Support
--   [ ] Alternative IP support
--   [ ] Alternative port support
+- [ ] Add more toggles
+- [x] Password Support
+- [ ] Alternative IP support
+- [ ] Alternative port support
