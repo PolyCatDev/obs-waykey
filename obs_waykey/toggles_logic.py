@@ -16,6 +16,8 @@ args = parser.parse_args()
 client = obs.ReqClient(host='localhost', port=4455, password=args.password, timeout=3)
 toggle = args.toggle
 
+# TODO Add propper error handling
+
 def record(name: str):
     if toggle == name:
         client.toggle_record()
