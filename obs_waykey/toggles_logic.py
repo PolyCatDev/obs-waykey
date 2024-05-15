@@ -14,14 +14,14 @@ args = parser.parse_args()
 
 # Sets up needed variables
 client = obs.ReqClient(host='localhost', port=4455, password=args.password, timeout=3)
-trigger = args.trigger
+toggle = args.toggle
 
 def record(name: str):
-    if trigger == name:
+    if toggle == name:
         client.toggle_record()
 
 def record_pause(name: str):
-    if trigger == name:
+    if toggle == name:
         client.toggle_record_pause()
 
 # TODO add more toggles
