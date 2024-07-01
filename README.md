@@ -3,7 +3,7 @@
 Python script for setting up OBS global keybinds under wayland
 
 ## ATENTION
-This project currently supports setting up start and pause keybinds as well as passwrd support.
+This project currently supports setting up start and pause keybinds as well as specifying the WebSocket password.
 This is currently featureful enought for myself.
 If there is demand for more hotkeys just submit a enhancement ticket in the bug reports section and I'll add your keybinds right away.
 
