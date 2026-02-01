@@ -1,20 +1,24 @@
-[tool.poetry]
+[project]
 name = "obs-waykey"
 version = "0.2.0"
 description = "OBS global shortcuts workaround for wayland using websocket"
-authors = ["PolyCat <polycat@tuta.io>"]
 readme = "README.md"
+authors = [
+  { name = "PolyCat", email = "polycat@tuta.io" }
+]
+requires-python = ">=3.9"
+dependencies = [
+  "obsws-python>=1.7.0,<2.0.0",
+]
 
-[tool.poetry.dependencies]
-python = "^3.9"
-obsws-python = "^1.7.0"
+[project.optional-dependencies]
+dev = [
+  "mypy>=1.10.0,<2.0.0",
+]
 
-[tool.poetry.group.dev.dependencies]
-mypy = "^1.10.0"
+[project.scripts]
+obs-waykey = "obs_waykey:ignite"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-[tool.poetry.scripts]
-obs-waykey = "obs_waykey:ignite"
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

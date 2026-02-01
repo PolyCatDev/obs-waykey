@@ -2,10 +2,10 @@
 
 Tool for setting up OBS global keybinds under wayland
 
->[!NOTE]
->This project currently supports setting up start and pause keybinds as well as specifying the WebSocket password. This is currently featureful enought for myself.
+> [!NOTE]
+> This project currently supports setting up start and pause keybinds as well as specifying the WebSocket password. This is currently featureful enought for myself.
 >
->If there is demand for more hotkeys just submit a enhancement ticket in the bug reports section and I'll add your keybinds right away.
+> If there is demand for more hotkeys just submit a enhancement ticket in the bug reports section and I'll add your keybinds right away.
 
 ## Requirements
 
@@ -50,8 +50,6 @@ pipx install <file-name>
 
 # Build from source
 
-ATTENTION: This project was built with [poetry](https://python-poetry.org/) in mind.
-
 1. Clone the repo
 
 ```
@@ -69,14 +67,14 @@ source .venv/bin/activate
 3. Install dependencies
 
 ```
-pip install poetry && \
-poetry install
+pip install uv && \
+uv sync
 ```
 
 4. Build the package
 
 ```
-poetry build
+uv build
 ```
 
 # To do
