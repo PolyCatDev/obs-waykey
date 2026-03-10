@@ -4,7 +4,7 @@ version = "0.2.0"
 description = "OBS global shortcuts workaround for wayland using websocket"
 readme = "README.md"
 authors = [
-  { name = "PolyCat", email = "polycat@tuta.io" }
+  { name = "PolyCat", email = "contact.polycat@proton.me" }
 ]
 requires-python = ">=3.9"
 dependencies = [
